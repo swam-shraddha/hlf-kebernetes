@@ -140,6 +140,6 @@ spec:
               memory: "200Mi"
               cpu: "200m"
           volumeMounts:
-            - mountPath: /opt/couchdb/data
+            - mountPath: /var/lib/couchdb
               name: fabricfiles
               subPath: state/org1/peer0-couchdb
