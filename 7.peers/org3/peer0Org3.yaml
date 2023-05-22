@@ -14,6 +14,7 @@ spec:
         name: peer0-org3
     
     spec:
+      nodeName: worker    
       volumes:
         - name: fabricfiles
           persistentVolumeClaim:
@@ -130,8 +131,7 @@ spec:
             - mountPath: /builders/external/bin/release
               name: external-builder-release
               subPath: release
-      nodeName: worker
-
+              
         - name: couchdb
           image: hyperledger/fabric-couchdb:0.4.15
           resources:
