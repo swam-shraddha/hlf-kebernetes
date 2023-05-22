@@ -12,10 +12,7 @@ spec:
     metadata:
       labels:
         name: peer0-org3
-
-
-
-
+    
     spec:
       volumes:
         - name: fabricfiles
