@@ -12,6 +12,7 @@ spec:
             labels:
                 name: orderer2
         spec:
+           nodeName: master
            volumes:
              - name: fabricfiles
                persistentVolumeClaim:
