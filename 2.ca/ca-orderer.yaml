@@ -12,7 +12,7 @@ spec:
       labels:
         app: ca-orderer
     spec:
-      nodename: master
+      nodeName: master
       volumes:
         - name: data
           persistentVolumeClaim:
