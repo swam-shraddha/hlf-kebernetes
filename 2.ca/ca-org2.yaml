@@ -12,6 +12,7 @@ spec:
       labels:
         app: ca-org2
     spec:
+      nodeName: master
       volumes:
         - name: data
           persistentVolumeClaim:
