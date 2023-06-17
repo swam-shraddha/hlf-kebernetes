@@ -12,7 +12,7 @@ spec:
       labels:
         app: ca-org1
     spec:
-      nodeName: worker
+      nodeName: worker1
       volumes:
         - name: data
           persistentVolumeClaim:
