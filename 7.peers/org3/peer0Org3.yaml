@@ -14,7 +14,7 @@ spec:
         name: peer0-org3
     
     spec:
-      nodeName: worker    
+      nodeName: worker3    
       volumes:
         - name: fabricfiles
           persistentVolumeClaim:
