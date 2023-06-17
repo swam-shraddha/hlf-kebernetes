@@ -3,7 +3,6 @@ kind: Deployment
 metadata:
   name: peer0-org3
 spec:
- # nodeName: worker
   selector:
     matchLabels:
       name: peer0-org3
