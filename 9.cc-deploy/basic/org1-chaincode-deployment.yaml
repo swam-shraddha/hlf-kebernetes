@@ -16,6 +16,7 @@ spec:
       labels:
         app: chaincode-basic-org1
     spec:
+      nodeName: worker1   
       containers:
         - image: 151996/basic-cc-hlf:1.0
           imagePullPolicy: Always
