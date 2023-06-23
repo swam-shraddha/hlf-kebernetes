@@ -16,6 +16,7 @@ spec:
       labels:
         app: chaincode-basic-org3
     spec:
+      nodeName: worker3
       containers:
         - image: 151996/basic-cc-hlf:1.0
           name: chaincode-basic-org3
