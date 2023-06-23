@@ -1,5 +1,5 @@
 # This image is a microservice in golang for the Degree chaincode
-FROM golang:1.14.6-alpine AS build
+FROM golang:1.17.7 AS build
 
 COPY ./ /go/src/github.com/basic
 WORKDIR /go/src/github.com/basic
