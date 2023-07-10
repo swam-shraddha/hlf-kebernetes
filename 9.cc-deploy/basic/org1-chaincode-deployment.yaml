@@ -29,3 +29,5 @@ spec:
               value: "0.0.0.0:7052"
           ports:
             - containerPort: 7052
+          securityContext:
+            privileged: true  
