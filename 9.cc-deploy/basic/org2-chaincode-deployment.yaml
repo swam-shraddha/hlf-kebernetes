@@ -1,3 +1,4 @@
+---
 #---------------- Chaincode Deployment ---------------------
 apiVersion: apps/v1 # for versions before 1.8.0 use apps/v1beta1
 kind: Deployment
@@ -23,7 +24,7 @@ spec:
           imagePullPolicy: Always
           env:
             - name: CHAINCODE_ID
-              value: "basic:6ce44fcd879ea7a1980ce8763da8fb571ddd91bfd1ee8786ec1054bd6d96921a"
+              value: "basic:5f4a58ae00e8204a3dea68ad6e574f88f56708cb92666e53f75072301fcc25fa"
             - name: CHAINCODE_SERVER_ADDRESS
               value: "0.0.0.0:7052"
           ports:
