@@ -12,10 +12,9 @@ RUN go build -o chaincode -v .
 FROM alpine:3.11 as prod
 
 COPY --from=build /go/src/github.com/marbles/chaincode /app/chaincode
-RUN ls
 
 USER 1000
 
 WORKDIR /app
-RUN ls /app/chaincode
+RUN chown -R 777 /app/chaincode
 CMD ./chaincode
