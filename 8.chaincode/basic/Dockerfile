@@ -14,7 +14,6 @@ FROM alpine:3.11 as prod
 USER 1000
 
 COPY --from=build /go/src/github.com/marbles/chaincode /chaincode
-RUN pwd
 #RUN ls /go/src/github.com/marbles/chaincode
 RUN ls /chaincode
 
