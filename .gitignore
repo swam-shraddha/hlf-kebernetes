@@ -1,2 +1,13 @@
 go1.17.7.linux-amd64.tar.gz
+8.chaincode/basic/.Dockerfile.swj
+8.chaincode/basic/.Dockerfile.swk
+8.chaincode/basic/.Dockerfile.swl
+8.chaincode/basic/.Dockerfile.swm
+8.chaincode/basic/.assetTransfer.go.swp
+8.chaincode/basic/packaging/.connection.json.swp
+9.cc-deploy/basic/.org1-chaincode-deployment.yaml.swg
+9.cc-deploy/basic/.org1-chaincode-deployment.yaml.swh
+9.cc-deploy/basic/.org1-chaincode-deployment.yaml.swi
+9.cc-deploy/basic/.org1-chaincode-deployment.yaml.swj
+9.cc-deploy/basic/.org1-chaincode-deployment.yaml.swk
 
